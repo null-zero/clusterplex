@@ -106,7 +106,7 @@ do
     echo "Codec ${codec}.so already exists. Skipping"
   else
     echo "Codec ${codec}.so does not exist. Downloading..."
-    wget https://downloads.plex.tv/codecs/${CLUSTERPLEX_PLEX_CODECS_VERSION}/${CLUSTERPLEX_PLEX_CODEC_ARCH}/${codec}.so
+    wget https://downloads.plex.tv/codecs${CLUSTERPLEX_PLEX_CODECS_VERSION}/${CLUSTERPLEX_PLEX_CODEC_ARCH}/${codec}.so
   fi
 done
 
